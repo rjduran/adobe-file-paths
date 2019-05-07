@@ -5,9 +5,10 @@ A quick reference to common file paths for various 2D/3D design software package
 ## Table of Contents
 
 * [Adobe Illustrator](#adobe-illustrator) 
+* [Autodesk Fusion 360](#autodesk-fusion-360) 
 <!-- * [McNeel Rhino](#mcneel-rhino) 
-* [Grasshopper](#grasshopper) 
-* [Autodesk Fusion 360](#autodesk-fusion-360)  -->
+* [Grasshopper](#grasshopper)  -->
+
 
 ## Adobe Illustrator
 
@@ -73,5 +74,40 @@ This makes a symbolic link from source to destination:
 ```
 ln -s /Users/<username>/Dropbox/Illustrator/SharedSymbols /Users/<username>/Library/Application\ Support/Adobe/Adobe\ Illustrator\ 22/en_US/Symbols
 ```
+
+## Autodesk Fusion 360
+
+### WINDOWS
+
+**Add-Ins**
+
+```
+C:\Users\<username>\AppData\Roaming\Autodesk\Autodesk Fusion 360\API\AddIns
+```
+
+**Scripts**
+
+```
+C:\Users\<username>\AppData\Roaming\Autodesk\Autodesk Fusion 360\API\Scripts
+```
+
+### MAC
+
+**Add-Ins**
+
+```
+~/Library/Application Support/Autodesk/Autodesk Fusion 360/API/AddIns
+```
+
+**Scripts**
+
+```
+~/Library/Application Support/Autodesk/Autodesk Fusion 360/API/Scripts
+```
+
+
+
+
+
 
 
