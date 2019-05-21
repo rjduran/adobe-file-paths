@@ -80,9 +80,9 @@ System: C:\Program Files (x86)\Common Files\Adobe\<CEPVersion>\extensions\
 
 ### Sharing Assets on Windows
 
-To share assets across directories on Windows there are two options:
+To share assets (Swatches, Brushes, Symbols) across directories on Windows there are two options:
 
-1. Use the built in presets directory found at `C:\Program Files\Adobe\Adobe Illustrator CC 2019\Presets\en_US\<asset-type>`.
+1. Use the built in presets directory found at `C:\Program Files\Adobe\Adobe Illustrator CC 2019\Presets\en_US\<asset-type>`. _Note: In the preset assets folders you will probably find all the existing presets. I put these files into a folder named "Adobe" that lives along side any custom asset folders I add to keep it organized._
 2. Use the custom "user defined" directory found at `C:\Users\<username>\AppData\Roaming\Adobe\Adobe Illustrator 23 Settings\en_US\x64\<asset-type>`.
 
     _Note: I should mention it is possible to share all assets in the cloud using the Adobe infrastructure but you don't have local access to collections of assets if developing extensions or just making libraries to share internally. These instructions are for anyone interested in working locally or with shared assets._
