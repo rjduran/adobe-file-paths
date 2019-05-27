@@ -9,14 +9,17 @@ A quick reference to common file paths and ways of sharing assets for Adobe Crea
         * Swatches
         * Symbols
         * Brushes
+        * Scripts
         * Adobe CEP
     * [Sharing Assets on Windows](#sharing-assets-on-windows)
     * [MacOS Paths](#macos-paths)
         * Swatches
         * Symbols
         * Brushes
+        * Scripts
         * Adobe CEP
-    * Sharing Assets on MacOS
+    * [Sharing Assets on MacOS](#sharing-assets-on-macos)
+* [References](#references)
 <!-- * Adobe Photoshop -->
 <!-- * Adobe After Effects -->
 
@@ -114,28 +117,66 @@ Adobe/Adobe\ Illustrator\ 23\ Settings/en_US/x64/Symbols
 
 ### MacOS Paths
 
-**Adobe CEP**
-
-```
-User: ∼/Library/Application Support/Adobe/<CEPVersion>/extensions
-System: /Library/Application Support/Adobe/<CEPVersion>/extensions
-```
-
 **Swatches**
 
+Preset swatches:
+```
+/Applications/Adobe\ Illustrator\ CC\ 2019/Presets.localized/en_US/Swatches
+```
+
+Custom swatches:
 ```
 /Users/<username>/Library/Application\ Support/Adobe/Adobe\ Illustrator\ 23/en_US/Swatches
 ```
 
 **Symbols**
 
+Preset symbols:
+```
+/Applications/Adobe\ Illustrator\ CC\ 2019/Presets.localized/en_US/Symbols
+```
+
+Custom symbols:
 ```
 /Users/<username>/Library/Application\ Support/Adobe/Adobe\ Illustrator\ 23/en_US/Symbols
 ```
 
+**Brushes**
+
+Preset brushes:
+```
+/Applications/Adobe\ Illustrator\ CC\ 2019/Presets.localized/en_US/Brushes
+```
+
+Custom brushes:
+```
+/Users/<username>/Library/Application\ Support/Adobe/Adobe\ Illustrator\ 23/en_US/Symbols
+```
+
+**Scripts**
+
+The scripts folder recognized by Illustrator doesn't acknowledge symlinks or aliases. Therefore, the best way to manage scripts is to keep them in the default folder for the version of Illustrator being used. To keep this folder organized one could use sub folders for any group of scripts. These show up as nexted items in the _File > Scripts_ menu item. [Per the Adobe Illustrator CC 2017 Scripting Guide (pg 10)](https://www.adobe.com/content/dam/acom/en/devnet/illustrator/pdf/AI_ScriptGd_2017.pdf), one could also just reference a script anywhere on the system via _File > Scripts > Other Script_. 
+
+New to scripting? To learn more about scripting in general, check out [adobe-scripting](https://github.com/rjduran/adobe-scripting) to learn more.
+
+Preset scripts:
+```
+/Applications/Adobe\ Illustrator\ CC\ 2019/Presets.localized/en_US/Scripts
+```
+
+**Adobe CEP**
+
+These folders are where Illustrator looks for custom CEP plugins. Check out [adobe-cep](https://github.com/rjduran/adobe-cep) to learn more.
+
+```
+User: ∼/Library/Application Support/Adobe/<CEPVersion>/extensions
+System: /Library/Application Support/Adobe/<CEPVersion>/extensions
+```
+
+
 ### Sharing Assets on MacOS
 
-It’s useful to manage shared swatches and symbols using symbolic links from a shared folder such as Dropbox to the Symbols or Swatches Adobe folder. 
+It’s useful to manage shared assets using symbolic links from a shared folder such as Dropbox to the Symbols or Swatches Adobe folder. 
 
 For Example:
 
