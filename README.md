@@ -115,6 +115,8 @@ ln -s /c/Users/<username>/Dropbox/Templates/Symbols/SharedSymbols /c/Users/<user
 Adobe/Adobe\ Illustrator\ 23\ Settings/en_US/x64/Symbols
 ```
 
+Tip: To create symlinks as shown above I am using [cmder](https://cmder.net/) terminal emulator.
+
 ### MacOS Paths
 
 **Swatches**
@@ -155,7 +157,7 @@ Custom brushes:
 
 **Scripts**
 
-The scripts folder recognized by Illustrator doesn't acknowledge symlinks or aliases. Therefore, the best way to manage scripts is to keep them in the default folder for the version of Illustrator being used. To keep this folder organized one could use sub folders for any group of scripts. These show up as nexted items in the _File > Scripts_ menu item. [Per the Adobe Illustrator CC 2017 Scripting Guide (pg 10)](https://www.adobe.com/content/dam/acom/en/devnet/illustrator/pdf/AI_ScriptGd_2017.pdf), one could also just reference a script anywhere on the system via _File > Scripts > Other Script_. 
+The scripts folder recognized by Illustrator doesn't acknowledge symlinks or aliases. Therefore, the best way to manage scripts is to keep them in the default folder for the version of Illustrator being used. To keep this folder organized one could use sub folders for any group of scripts. These show up as nested items in the _File > Scripts_ menu item. [Per the Adobe Illustrator CC 2017 Scripting Guide (pg 10)](https://www.adobe.com/content/dam/acom/en/devnet/illustrator/pdf/AI_ScriptGd_2017.pdf), one could also just reference a script anywhere on the system via _File > Scripts > Other Script_. 
 
 New to scripting? To learn more about scripting in general, check out [adobe-scripting](https://github.com/rjduran/adobe-scripting) to learn more.
 
