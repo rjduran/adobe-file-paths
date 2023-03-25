@@ -4,22 +4,13 @@ A quick reference to common file paths and ways of sharing assets for Adobe Crea
 
 ## Table of Contents
 
-* [Adobe Illustrator](#adobe-illustrator)
-    * [Windows Paths](#windows-paths)
-        * Swatches
-        * Symbols
-        * Brushes
-        * Scripts
-        * Adobe CEP
-    * [Sharing Assets on Windows](#sharing-assets-on-windows)
-    * [MacOS Paths](#macos-paths)
-        * Swatches
-        * Symbols
-        * Brushes
-        * Scripts
-        * Adobe CEP
-    * [Sharing Assets on MacOS](#sharing-assets-on-macos)
-* [References](#references)
+- [adobe-file-paths](#adobe-file-paths)
+  - [Table of Contents](#table-of-contents)
+  - [Adobe Illustrator](#adobe-illustrator)
+    - [Windows Paths](#windows-paths)
+    - [Sharing Assets on Windows](#sharing-assets-on-windows)
+    - [MacOS Paths](#macos-paths)
+    - [Sharing Assets on MacOS](#sharing-assets-on-macos)
 <!-- * Adobe Photoshop -->
 <!-- * Adobe After Effects -->
 
@@ -31,6 +22,10 @@ A quick reference to common file paths and ways of sharing assets for Adobe Crea
 * Illustrator CC 2017 = version 21
 * Illustrator CC 2018 = version 22
 * Illustrator CC 2019 = version 23
+* Illustrator CC 2020 = version 24
+* Illustrator CC 2021 = version 25
+* Illustrator CC 2022 = version 26
+* Illustrator CC 2023 = version 27
 
 _Be sure to replace the Illustrator version number below with the version being used._
 
